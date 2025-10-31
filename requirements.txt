@@ -1,0 +1,9 @@
+tensorflow==2.17.1
+openai
+streamlit
+numpy
+pandas
+Pillow 
+matplotlib
+reportlab
+gdown
