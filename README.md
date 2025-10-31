@@ -105,3 +105,6 @@ The dataset used for this project is publicly available on **Kaggle**:
 - Pillow (PIL)  
 
 ---
+## Project Documents
+- [DEPI PROPOSAL.docx](./DEPI%20PROPOSAL.docx) — Detailed project proposal outlining objectives, timeline, team structure, and methodology.
+
