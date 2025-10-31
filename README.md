@@ -10,15 +10,17 @@ This repository implements a deep learning pipeline for classification of brain 
 - Pituitary  
 - No Tumor  
 
-All experiments, preprocessing, training, evaluation, and result visualization are implemented and documented within the primary Jupyter Notebook (`Brain_Tumor_MRI_Model.ipynb`).
+The project focuses on optimizing model accuracy and interpretability through structured preprocessing, data augmentation, and fine-tuning.
+All experiments, preprocessing, training, evaluation, and result visualization are implemented and documented within the primary Jupyter Notebook (`AI-Assisted-Brain-Tumor-Diagnosis-System.ipynb`).
 
 ---
 
 ## Objectives
-- Develop and fine-tune an Xception-based CNN for MRI brain tumor classification.  
-- Preprocess and augment MRI images to improve model generalization.  
-- Evaluate model performance using accuracy, precision, recall, F1-score, and confusion matrix.  
-- Provide reproducible training and evaluation steps inside a single notebook for research and educational use.  
+- Develop a deep learning model using the **Xception architecture** for MRI brain tumor classification.
+- Classify MRI scans into four categories: **Glioma**, **Meningioma**, **Pituitary**, and **No Tumor**.
+- Train and fine-tune the model using the **Kaggle Brain Tumor MRI dataset**.
+- Evaluate the model using **accuracy**, **F1-score**, and **confusion matrix**.
+- Visualize results and document outcomes for reproducibility.
 
 ---
 
@@ -37,13 +39,13 @@ The dataset used for this project is publicly available on **Kaggle**:
 
 ---
 
-## Model
-- **Architecture:** Xception (pretrained on ImageNet; fine-tuned)  
-- **Input shape:** 299 × 299 × 3 (RGB)  
-- **Loss:** Categorical Crossentropy  
+## **Model Architecture**
+- **Base Model:** Xception (pre-trained on ImageNet)  
+- **Additional Layers:** Dense, Dropout, Softmax output  
+- **Loss Function:** Categorical Crossentropy  
 - **Optimizer:** Adam  
-- **Epochs:** 50  
-- **Batch size:** 32  
+- **Training Epochs:** 50  
+- **Accuracy Achieved:** ~95% on validation  
 
 | Section           | Description                         | Suggested Visual           |
 | ----------------- | ----------------------------------- | -------------------------- |
@@ -57,19 +59,38 @@ The dataset used for this project is publicly available on **Kaggle**:
 
 
 ## Output Examples
-<p align="center"> <img src="images/3_.png" alt="Brain MRI classification illustration" width="600"/> </p>
-<p align="center"> <img src="images/4_.png" alt="Brain MRI classification illustration" width="600"/> </p>
-<p align="center"> <img src="images/5_.png" alt="Brain MRI classification illustration" width="600"/> </p>
+<p align="center">
+  <img src="images/3_.png" alt="Brain MRI classification illustration" width="600"/>
+</p>
+<p align="center">
+  <img src="images/4_.png" alt="Brain MRI classification illustration" width="600"/>
+</p>
+<p align="center">
+  <img src="images/5_.png" alt="Brain MRI classification illustration" width="600"/>
+</p>
 
+## **Tools & Technologies**
+- **Languages:** Python  
+- **Libraries/Frameworks:** TensorFlow, Keras  
+- **Supporting Libraries:** NumPy, pandas, scikit-learn, matplotlib, seaborn, PIL  
+- **Environment:** Google Colab, Jupyter Notebook  
+- **Version Control:** GitHub  
 
+## **KPIs (Key Performance Indicators)**
+**1. Data Quality**
+- Missing values handled during preprocessing  
+- Class balance maintained across four tumor categories  
+- Image normalization to 299×299 pixels  
 
-## Performance
-Evaluation outputs (available in the notebook):
-- Training / validation loss and accuracy curves  
-- Confusion matrix and classification report  
-- Example predictions with confidence scores  
+**2. Model Performance**
+- Model accuracy: ~95%  
+- Base model: Xception (fine-tuned ImageNet weights)  
+- Optimizer: Adam, Loss: Categorical Crossentropy  
+- Training epochs: 50  
 
-**Reported validation accuracy:** ≈ **95%**
+**3. Implementation**
+- Model loading from `.h5` file supported  
+- Predictions generated from single MRI image input  
 
 ---
 
