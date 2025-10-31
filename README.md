@@ -45,9 +45,23 @@ The dataset used for this project is publicly available on **Kaggle**:
 - **Epochs:** 50  
 - **Batch size:** 32  
 
-The notebook demonstrates both frozen-base training and gradual fine-tuning of the top layers.
-
+| Section           | Description                         | Suggested Visual           |
+| ----------------- | ----------------------------------- | -------------------------- |
+| Patient Intake    | Form for name, age, gender, history | Patient form UI         |
+| Symptom Form      | 10-question radio button survey     | Form UI screenshot      |
+| Image Upload      | Accepts .jpg/.png MRI scans         | Sample MRI preview      |
+| Model Prediction  | Predicts tumor class                | Horizontal bar chart (probability)|
+| Report Generation | Detailed report with all info       | Generated PDF example   |
+| GPT-Based Advice  | AI-powered medical suggestion       | Text output from OpenAI |
 ---
+
+
+## Output Examples
+<p align="center"> <img src="images/3_.png" alt="Brain MRI classification illustration" width="600"/> </p>
+<p align="center"> <img src="images/4_.png" alt="Brain MRI classification illustration" width="600"/> </p>
+<p align="center"> <img src="images/5_.png" alt="Brain MRI classification illustration" width="600"/> </p>
+
+
 
 ## Performance
 Evaluation outputs (available in the notebook):
