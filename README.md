@@ -60,13 +60,13 @@ The dataset used for this project is publicly available on **Kaggle**:
 
 ## Output Examples
 <p align="center">
-  <img src="images/3_.png" alt="Brain MRI classification illustration" width="600"/>
+  <img src="./3_.png" alt="Brain MRI classification example 1" width="600"/>
 </p>
 <p align="center">
-  <img src="images/4_.png" alt="Brain MRI classification illustration" width="600"/>
+  <img src="./4_.png" alt="Brain MRI classification example 2" width="600"/>
 </p>
 <p align="center">
-  <img src="images/5_.png" alt="Brain MRI classification illustration" width="600"/>
+  <img src="./5_.png" alt="Brain MRI classification example 3" width="600"/>
 </p>
 
 ## **Tools & Technologies**
