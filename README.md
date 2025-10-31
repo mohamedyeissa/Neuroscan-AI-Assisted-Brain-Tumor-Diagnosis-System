@@ -105,10 +105,3 @@ The dataset used for this project is publicly available on **Kaggle**:
 - Pillow (PIL)  
 
 ---
-
-## Repository Structure
-├── Brain_Tumor_MRI_Model.ipynb # Notebook: preprocessing, training, evaluation
-├── model_xception.h5 # Saved model weights (if included)
-├── requirements.txt # Python dependencies
-├── results/ # Evaluation plots and metrics
-└── README.md
