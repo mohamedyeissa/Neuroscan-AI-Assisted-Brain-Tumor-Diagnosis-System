@@ -27,7 +27,7 @@ All experiments, preprocessing, training, evaluation, and result visualization a
 ## Dataset
 The dataset used for this project is publicly available on **Kaggle**:
 
-**🔗 [Brain Tumor MRI Dataset (Kaggle)](https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri)**  
+**🔗 [Brain Tumor MRI Dataset (Kaggle)](kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)**  
 
 **Preprocessing steps include:**
 - Resize images to **299×299** pixels (Xception input requirement)  
