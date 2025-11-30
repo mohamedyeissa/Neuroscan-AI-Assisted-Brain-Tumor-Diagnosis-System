@@ -69,13 +69,12 @@ Grayscale → converted to RGB
 | Report Generation | Detailed report with all info       | Generated PDF example   |
 | GPT-Based Advice  | AI-powered medical suggestion       | Text output from OpenAI |
 
-
 **Training & Evaluation**
 Metrics used:
--Accuracy
--Precision, Recall, F1
--Confusion Matrix
--Loss/Accuracy Curves
+- Accuracy
+- Precision, Recall, F1
+- Confusion Matrix
+- Loss/Accuracy Curves
 ---
 
 
@@ -91,7 +90,6 @@ Metrics used:
 </p>
 
 
-Strong generalization across all tumor types
 ## **Tools & Technologies**
 - **Languages:** Python  
 - **Libraries/Frameworks:** TensorFlow, Keras  
