@@ -27,7 +27,7 @@ All experiments, preprocessing, training, evaluation, and result visualization a
 ## Dataset
 The dataset used for this project is publicly available on **Kaggle**:
 
-**🔗 [Brain Tumor MRI Dataset (Kaggle)](kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)**  
+**🔗 [Brain Tumor MRI Dataset (Kaggle)](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)**
 
 **Preprocessing steps include:**
 - Resize images to **299×299** pixels (Xception input requirement)  
@@ -92,6 +92,10 @@ The dataset used for this project is publicly available on **Kaggle**:
 - Model loading from `.h5` file supported  
 - Predictions generated from single MRI image input  
 
+**Live App & Repository**
+
+Live App: https://neuroscan-app-lzbsggtrdfpu3dveh4mkkm.streamlit.app/
+App Repo: https://github.com/FadyMorkos3/NeuroScan-App
 ---
 
 ## Tools & Supporting Libraries
