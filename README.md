@@ -92,11 +92,14 @@ The dataset used for this project is publicly available on **Kaggle**:
 - Model loading from `.h5` file supported  
 - Predictions generated from single MRI image input  
 
-**Live App**
 
-Live App Repo:  https://github.com/FadyMorkos3/NeuroScan-App
 ---
 
+**Live App**
+
+Live App Repo:  https://github.com/FadyMorkos3/NeuroScan-Ap
+
+---
 ## Tools & Supporting Libraries
 - Python 3.x  
 - TensorFlow / Keras  
