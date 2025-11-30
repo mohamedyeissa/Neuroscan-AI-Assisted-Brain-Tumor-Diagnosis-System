@@ -95,6 +95,7 @@ The dataset used for this project is publicly available on **Kaggle**:
 **Live App & Repository**
 
 Live App: https://neuroscan-app-lzbsggtrdfpu3dveh4mkkm.streamlit.app/
+
 App Repo: https://github.com/FadyMorkos3/NeuroScan-App
 ---
 
