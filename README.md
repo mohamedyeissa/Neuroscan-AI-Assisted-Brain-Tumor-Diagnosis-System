@@ -11,7 +11,7 @@ This repository implements a deep learning pipeline for classification of brain 
 - No Tumor  
 
 The project focuses on optimizing model accuracy and interpretability through structured preprocessing, data augmentation, and fine-tuning.
-All experiments, preprocessing, training, evaluation, and result visualization are implemented and documented within the primary Jupyter Notebook (`AI-Assisted-Brain-Tumor-Diagnosis-System.ipynb`).
+All experiments, preprocessing, training, evaluation, and result visualization are implemented and documented within the primary Jupyter Notebook (`AI-Assisted-Brain-Tumor-Diagnosis.ipynb`).
 
 ---
 
