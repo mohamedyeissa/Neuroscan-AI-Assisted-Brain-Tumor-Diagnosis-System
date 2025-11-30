@@ -118,7 +118,7 @@ Metrics used:
 
 **Live App**
 
-Live App Repo:  https://github.com/FadyMorkos3/NeuroScan-Ap
+Live App Repo:  https://github.com/FadyMorkos3/NeuroScan-App
 
 ---
 ## Tools & Supporting Libraries
