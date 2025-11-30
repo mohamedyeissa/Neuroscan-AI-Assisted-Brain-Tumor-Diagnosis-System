@@ -29,14 +29,27 @@ The dataset used for this project is publicly available on **Kaggle**:
 
 **🔗 [Brain Tumor MRI Dataset (Kaggle)](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)**
 
+Contains:
+
+7,022 MRI images
+
+Four categories: Glioma, Meningioma, Pituitary, No Tumor
+
+T1-weighted contrast-enhanced MRI
+
+Image specs
+
+Varying resolutions (150–512px)
+
+PNG/JPG formats
+
+Grayscale → converted to RGB
+
 **Preprocessing steps include:**
 - Resize images to **299×299** pixels (Xception input requirement)  
 - Normalize pixel values  
 - Data augmentation (rotation, shift, flip, zoom)  
 - Stratified train/validation/test split to preserve class balance  
-
-(Refer to the notebook for the dataset link and parameters used.)
-
 ---
 
 ## **Model Architecture**
@@ -55,6 +68,14 @@ The dataset used for this project is publicly available on **Kaggle**:
 | Model Prediction  | Predicts tumor class                | Horizontal bar chart (probability)|
 | Report Generation | Detailed report with all info       | Generated PDF example   |
 | GPT-Based Advice  | AI-powered medical suggestion       | Text output from OpenAI |
+
+
+**Training & Evaluation**
+Metrics used:
+-Accuracy
+-Precision, Recall, F1
+-Confusion Matrix
+-Loss/Accuracy Curves
 ---
 
 
@@ -69,6 +90,8 @@ The dataset used for this project is publicly available on **Kaggle**:
   <img src="./5_.png" alt="Brain MRI classification example 3" width="600"/>
 </p>
 
+
+Strong generalization across all tumor types
 ## **Tools & Technologies**
 - **Languages:** Python  
 - **Libraries/Frameworks:** TensorFlow, Keras  
